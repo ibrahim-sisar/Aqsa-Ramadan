@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aqsa-Ramadan - أوقات الصلاة</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <button id="activateSoundBtn" style="display:none;">تفعيل صوت الأذان</button>
+        <header>
+            <h1>🕌 Aqsa-Ramadan</h1>
+            <p>موقعك الموثوق لأوقات الصلاة</p>
+        </header>
+        
+        <section class="time-box">
+            <h2>⏳ الصلاة القادمة خلال:</h2>
+            <p id="countdown">تحميل...</p>
+        </section>
+
+        <section class="prayer-times">
+            <h2>🕋 أوقات الصلاة</h2>
+            <ul id="prayer-list">
+                <li>الفجر: <span id="fajr">...</span></li>
+                <li>الظهر: <span id="dhuhr">...</span></li>
+                <li>العصر: <span id="asr">...</span></li>
+                <li>المغرب: <span id="maghrib">...</span></li>
+                <li>العشاء: <span id="isha">...</span></li>
+            </ul>
+        </section>
+
+        <section class="date-time">
+            <h2>📅 التاريخ والوقت</h2>
+            <p id="date">تحميل...</p>
+            <p id="time">تحميل...</p>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

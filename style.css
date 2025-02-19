@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    direction: rtl;
+    text-align: center;
+}
+
+body {
+    background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Jerusalem-2013%282%29-Temple_Mount-Dome_of_the_Rock_%28SE_exposure%29.jpg/800px-Jerusalem-2013%282%29-Temple_Mount-Dome_of_the_Rock_%28SE_exposure%29.jpg?20140106180740') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 15px;
+    max-width: 600px;
+    margin: 50px auto;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.time-box, .prayer-times, .date-time {
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    font-size: 20px;
+}
+
+ul li {
+    padding: 5px 0;
+}
+
+#countdown {
+    font-size: 26px;
+    font-weight: bold;
+    color: #ffd700;
+}
