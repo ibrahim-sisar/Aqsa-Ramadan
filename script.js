@@ -79,6 +79,7 @@ async function main(latitude, longitude) {
         currentTimeInMinutes * 60 + new Date().getSeconds();
 
       if (nextPrayerInSeconds === currentTimeInSeconds) {
+        alert("حان الأن موعد الأذان");
         adhanAudio.play();
       }
     }, 1000);
