@@ -2,7 +2,7 @@
   "name": "Aqsa Ramadan",
   "short_name": "Aqsa",
   "description": "The Prayer Times App is a web-based application designed to provide accurate prayer times based on the user's geographic location. It is a tool that helps Muslims keep track of the prayer times, and it includes prayer time alerts with sound notifications for the call to prayer (adhan). ",
-  "start_url": "/index.html",
+  "start_url": "/Aqsa-Ramadan",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#006400",
